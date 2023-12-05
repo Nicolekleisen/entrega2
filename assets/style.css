@@ -10,11 +10,12 @@
 }
 
 header {
-  background-color: gray;
+  background-color: rgb(196, 195, 195);
   display: flex;
   justify-content: space-between;
   padding: 10px;
   align-items: center;
+  height: 90px;
 }
 
 nav {
@@ -31,4 +32,9 @@ nav {
 
 a {
   color: white;
+}
+
+img {
+  height: 150px;
+  width: 150px;
 }
