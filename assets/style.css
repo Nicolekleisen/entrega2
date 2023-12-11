@@ -88,13 +88,15 @@ p {
   padding: 5px;
 }
 
-.hero-pic {
-  background-color: #7ca5b8;
-  height: 300px;
-  width: 1000px;
+.hero-pic img {
+  height: 250px;
+  width: 300px;
 }
 
 .about-section {
   margin-top: 50px;
   max-width: 700px;
+  font-size: larger;
+  text-align: center;
+  font-weight: 400;
 }
