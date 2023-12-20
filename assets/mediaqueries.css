@@ -1,0 +1,12 @@
+@media (max-widht: 992px) {
+  .menu-toggle {
+    display: flex;
+  }
+
+  .lista-header {
+    flex-direction: column;
+    position: absolute;
+    top: 73px;
+    right: 0;
+  }
+}

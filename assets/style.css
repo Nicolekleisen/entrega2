@@ -179,3 +179,13 @@ footer {
   margin-top: 50px;
   align-items: flex-end;
 }
+
+#menu-toggle {
+  display: none;
+}
+
+.menu-toggle {
+  display: none;
+  position: absolute;
+  right: 60px;
+}
