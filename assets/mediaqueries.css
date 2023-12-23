@@ -1,4 +1,4 @@
-@media (max-widht: 992px) {
+@media (max-width: 992px) {
   .menu-toggle {
     display: flex;
   }
@@ -6,7 +6,59 @@
   .lista-header {
     flex-direction: column;
     position: absolute;
-    top: 73px;
     right: 0;
+    background-color: var(--details1);
+    width: 25%;
+    padding: 10px;
+    border: 2px solid var(nav-bar);
+    border-radius: 0 0 30px 30px;
+    text-align: center;
+    display: none;
+  }
+
+  #menu-toggle:checked + .lista-header {
+    display: flex;
+    margin-inline: 5px;
+    margin-top: 37px;
+    gap: 10px;
+  }
+
+  .menu-toggle img {
+    height: 50px;
+    width: 50px;
+    opacity: 40%;
+  }
+
+  .hero-section {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-links {
+    justify-content: center;
+  }
+
+  .about-section {
+    font-size: large;
+    width: 300px;
+  }
+
+  .cajas-contenedor {
+    flex-direction: column;
+    max-width: 300px;
+  }
+
+  .contacto {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .redes {
+    display: flex;
+    align-items: center;
+    margin-left: 250px;
   }
 }

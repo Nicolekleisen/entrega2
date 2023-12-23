@@ -187,5 +187,6 @@ footer {
 .menu-toggle {
   display: none;
   position: absolute;
-  right: 60px;
+  right: 20px;
+  top: 15px;
 }
